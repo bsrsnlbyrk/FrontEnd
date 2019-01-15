@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/xhtml; charset=utf-8" />
+	<title>HOME</title>
+	
+	<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="jcarousel/dist/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="scripts/menu.js"></script>
+	<script type="text/javascript" src="scripts/carousel.js"></script>
+	<script type="text/javascript" src="scripts/slider.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
+	
+	<style type="text/css">
+		body{
+			background-color:#e5e5e5;
+		}
+	</style>
+
+</head>
+
+<body>
+	
+	<div id="container">
+		
+		<div class="column" id="column1" style="width:25%">
+			
+			<div id="logo">
+				<h3 style="padding-bottom:7%;padding-top:7%;padding-left:2%;">Logo Place</h3>
+			</div>
+			
+			<div id="menu" class="list-group list-group-flush">
+				<a id="home" class="list-group-item.list-group-flush">HOME</a>
+				<a id="subhome" style="display:none;text-indent:20px">SUB HOME</a>
+				<a id="about_us" class="list-group-item">ABOUT US</a>
+				<a id="subabout" style="display:none;text-indent:20px">SUB ABOUT US</a>
+				<a id="our_works" class="list-group-item">OUR WORKS</a>
+				<a id="subworks" style="display:none;text-indent:20px">SUB OUR WORKS</a>
+				<a id="services" class="list-group-item">SERVICES</a>
+				<a id="subservices" style="display:none;text-indent:20px">SUB SERVICES</a>
+				<a id="journal" class="list-group-item">JOURNAL</a>
+				<a id="subjournal" style="display:none;text-indent:20px">SUB JOURNAL</a>
+				<a id="contact_us" class="list-group-item.list-group-flush">CONTACT US</a>
+				<a id="subcontact" style="display:none;text-indent:20px">SUB CONTACT</a>
+			</div>
+			
+			<div id="popular_posts">
+				<h5>POPULAR POSTS</h5>
+				<div>
+					<div class="media">
+					  <img class="mr-3" src="images/van_gogh1.jpg" alt="" width="64px" height="64px"/>
+					  <div class="media-body">
+						<span class="mt-0">Magna Ullamcorper</span>
+						Dolor Fermentum
+					  </div>
+					</div>
+					<div class="media" style="margin-top:3%">
+					  <img class="mr-3" src="images/van_gogh3.jpg" alt="" width="64px" height="64px"/>
+					  <div class="media-body">
+						<span class="mt-0">Commodo Fusce</span>
+						Dolor Adipiscing
+					  </div>
+					</div>
+					<div class="media" style="margin-top:3%">
+					  <img class="mr-3" src="images/van_gogh2.jpg" alt="" width="64px" height="64px"/>
+					  <div class="media-body">
+						<span class="mt-0">Quam Inceptos</span>
+						Lorem Tortor Risus
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="column" id="column2">
+			
+				<div id="header">
+					<p>HI!MY NAME IS EXAMPLE.WELCOME TO MY WEBSITE...
+					<span style="float:right">
+						<a href="#"><img src="images/rss.png" alt="" width="20px" height="20px"/></a>
+						<a href="#"><img src="images/facebook.png" alt="" width="20px" height="20px"/></a>
+						<a href="#"><img src="images/twitter.png" alt="" width="20px" height="20px"/></a>
+						<a href="#"><img src="images/flickr.png" alt="" width="20px" height="20px"/></a>
+						<a href="#"><img src="images/linkedin.png" alt="" width="20px" height="20px"/></a>
+					</span>
+					</p>
+				</div>
+				
+				<div class="jcarousel-wrapper">
+					<div class="jcarousel">
+						<ul>
+							<li class="item"><img src="images/picasso1.jpg" alt="Picasso Works" width="800px" height="400px"/></li>
+							<li class="item"><img src="images/picasso2.jpg" alt="Picasso Works" width="800px" height="400px"/></li>
+							<li class="item"><img src="images/picasso3.jpg" alt="Picasso Works" width="800px" height="400px"/></li>
+							<li class="item"><img src="images/picasso4.jpg" alt="Picasso Works" width="800px" height="400px"/></li>
+						</ul>
+					</div>
+					<button onclick="" class="jcarousel-control-prev">&#8592;</button>
+					<button onclick="" class="jcarousel-control-next">&#8594;</button>
+				</div>
+				
+				<div id="recent_works">
+					
+					<div id="div_1">	
+						<button id="goRight" onclick="">&#8594;</button><button id="goLeft" style="margin-right:5px" onclick="">&#8592;</button>
+						<h5>RECENT WORKS</h5>
+					</div>	
+					
+					<div class="jcarousel-wrapper">
+						<div class="card_area">
+							<div class="cards">
+								<div class="card" id="_card1">
+									<img style="width:320px;height:250px" class="card-img-top" src="images/afremov1.jpeg" alt="Card image cap" />
+									<div class="card-body">
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									</div>
+								</div>
+								<div class="card" id="_card2">
+									<img class="card-img-top" src="images/afremov2.jpg" alt="Card image cap" />
+									<div class="card-body">
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									</div>
+								</div>
+								<div class="card" id="_card3">
+									<img class="card-img-top" src="images/afremov3.jpg" alt="Card image cap" />
+									<div class="card-body">
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									</div>
+								</div>
+								<div class="card" id="_card4" style="margin-left:15px">
+									<img style="width:320px;height:250px" class="card-img-top" src="images/afremov4.jpg" alt="Card image cap" />
+									<div class="card-body">
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									</div>
+								</div>
+								<div class="card" id="_card5">
+									<img class="card-img-top" src="images/afremov5.jpg" alt="Card image cap" />
+									<div class="card-body">
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									</div>
+								</div>
+								<div class="card" id="_card6">
+									<img class="card-img-top" src="images/afremov6.jpg" alt="Card image cap" />
+									<div class="card-body">
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div id="footer">
+					<p>&#169; 2011 Example. All Rights Reserved. <button id="gotoTop" onclick="gotoTop()">&#8593;</button></p>
+				</div>
+				
+				<script type="text/javascript">
+				$('#gotoTop').click(function(){ 
+					$('html,body').animate({ scrollTop: 0 }, 500);
+				});
+				</script>
+		</div>
+	</div>	
+</body>
+</html>
