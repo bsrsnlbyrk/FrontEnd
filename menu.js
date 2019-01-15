@@ -1,0 +1,30 @@
+$(document).ready(function(){
+	$("#home").click(function(){
+		$(this).next("#subhome").slideToggle("slow");
+	});
+});
+$(document).ready(function(){
+	$("#about_us").click(function(){
+		$(this).next("#subabout").slideToggle("slow");
+	});
+});
+$(document).ready(function(){
+	$("#our_works").click(function(){
+		$(this).next("#subworks").slideToggle("slow");
+	});
+});
+$(document).ready(function(){
+	$("#services").click(function(){
+		$(this).next("#subservices").slideToggle("slow");
+	});
+});
+$(document).ready(function(){
+	$("#journal").click(function(){
+		$(this).next("#subjournal").slideToggle("slow");
+	});
+});
+$(document).ready(function(){
+	$("#contact_us").click(function(){
+		$(this).next("#subcontact").slideToggle("slow");
+	});
+});
